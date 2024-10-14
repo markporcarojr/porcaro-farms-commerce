@@ -5,6 +5,9 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      colors: {
+        'golden-rod': '#ffcb05',
+      },
       fontFamily: {
         sans: ['var(--font-geist-sans)']
       },
@@ -25,7 +28,7 @@ module.exports = {
       },
       animation: {
         fadeIn: 'fadeIn .3s ease-in-out',
-        carousel: 'marquee 60s linear infinite',
+        carousel: 'marquee 30s linear infinite',
         blink: 'blink 1.4s both infinite'
       }
     }
