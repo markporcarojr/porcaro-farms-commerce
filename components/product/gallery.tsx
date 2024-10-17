@@ -31,7 +31,7 @@ export function Gallery({ images }: { images: { src: string; altText: string }[]
         )}
 
         {images.length > 1 ? (
-          <div className="absolute bottom-[3%] flex w-full justify-center">
+          <div className="absolute bottom-[0%] flex w-full justify-center">
             <div className="mx-auto flex h-11 items-center rounded-full border border-white bg-neutral-50/80 text-neutral-500 backdrop-opacity-10 dark:border-black dark:bg-neutral-900/30">
               <button
                 formAction={() => {
